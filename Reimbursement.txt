@@ -1,10 +1,10 @@
 Total Reimbursement amount in chronological order: 
 
-र301.00
-र971.00
-र248
-र171.00
 र432.00
+र171.00
+र971.00
+र301.00
+र248
 र586.00
 
 Total Amount: 2709.0

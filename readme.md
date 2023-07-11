@@ -7,12 +7,15 @@ A lot of corporate offices have a reimbursement policy where you can reimburse e
 <br>
 
 ## Installation
-You can download the latest ```.exe``` through [Releases](https://github.com/sudotman/BetterUnity/releases/) and double-click to run it.
+You can download the latest ```.exe``` through [Releases](https://github.com/sudotman/zwigato-reimbursement-calculator/releases/) and double-click to run it.
 
 or
 
 You can clone the repo and build it manually.
 
+```reimbursement.py``` contains the CLI code. When run, there will be no prompts for any sort of file selection but rather the current present jpegs/jpgs will be automatically read and then processed.
+
+```reimbursementGUI.py``` contains the GUI code with a proper user interface. This is the one used to build the Releases ```Reimbursement.exe``` too.
 
 ## Contribute to the project
 [Click here to see general collaboration information](#contribution)
