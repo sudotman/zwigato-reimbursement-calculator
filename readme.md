@@ -7,7 +7,7 @@ A lot of corporate offices have a reimbursement policy where you can reimburse e
 <br>
 
 ## Installation
-You can download the latest ```.exe``` through [Releases](https://github.com/sudotman/zwigato-reimbursement-calculator/releases/) and double-click to run it.
+You can download the latest ```.exe``` through [Releases](https://github.com/sudotman/zwigato-reimbursement-calculator/releases/) and double-click to run it. When running the .exe, let a few seconds pass by.
 
 or
 
