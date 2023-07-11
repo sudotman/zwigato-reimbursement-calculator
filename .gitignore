@@ -2,3 +2,5 @@
 *.jpeg
 *.txt
 /temp
+/dist
+*.spec

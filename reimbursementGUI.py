@@ -13,7 +13,6 @@ stop_program = False  # Global flag to indicate if the program should stop
 def emptyFun():
     print('Empty')
 
-threadMain = threading.Thread(target=emptyFun)
 
 
 def select_files():
@@ -41,13 +40,13 @@ def run_program():
     def program_thread():
         import easyocr
         import os
-
+        files = selected_files
         path = os.getcwd()
-        files = os.listdir(path)
+        # files = os.listdir(path)
         included_extensions = ['jpg','jpeg', 'bmp', 'png', 'gif']
-        files = [f for f in files if os.path.isfile(path+'/'+f)] #Filtering only the files.
-        files = [fn for fn in os.listdir(path) if any(fn.endswith(ext) for ext in included_extensions)] #filter out all non image files (i.e non screenshots)
-        print(*files, sep="\n")
+        # files = [f for f in files if os.path.isfile(path+'/'+f)] #Filtering only the files.
+        # files = [fn for fn in os.listdir(path) if any(fn.endswith(ext) for ext in included_extensions)] #filter out all non image files (i.e non screenshots)
+        # print(*files, sep="\n")
 
         reader = easyocr.Reader(['en','hi'])
         # reader_without_hi = easyocr.Reader(['en'])
@@ -200,7 +199,7 @@ run_button.pack(pady=10)
 # stop_button.pack(pady=5)
 
 # Progress bar and label
-description_label = tk.Label(window, text="After pressing run, the seperate thread will\n get processed using your CPU on a seperate thread. \nDon't run multiple instances at once.")
+description_label = tk.Label(window, text="After pressing run, the images will\n get processed using your CPU on a seperate thread. \nDon't run multiple instances at once.")
 description_label.pack()
 
 # Start the GUI event loop
