@@ -4,7 +4,18 @@ A simple tool to allow easy calculation of reimbursement each month without havi
 ## Purpose
 A lot of corporate offices have a reimbursement policy where you can reimburse expenditure throughout the month during office hours. This entails a lot of time of manually sifting through screenshots, filling forms and converting to PDF. This tool reads through your screeshots/photos, calculates the total amount, converts the images into the PDF (even names them according to the previous month's name using your computer's date and time), and saves the total amount to a text file too.
 
+## Disclaimer
+Works for the full detailed screenshot of Swiggy, Zomato, Zepto, Blinkit etc. Not tested on other screenshots but it shouldn't be a problem. As long as the format of a full bill breakdown with the final at the bottom is followed, it should work fine.
+
+## Demo
+
+This is how the GUI looks like:
+
+![Image1](https://github.com/sudotman/sudotman/blob/main/demos/ReimbursementCalculator/demo1.png?raw=true)
+
 <br>
+
+![Image2](https://github.com/sudotman/sudotman/blob/main/demos/ReimbursementCalculator/demo2.png?raw=true)
 
 ## Installation
 You can download the latest ```.exe``` through [Releases](https://github.com/sudotman/zwigato-reimbursement-calculator/releases/) and double-click to run it. When running the .exe, let a few seconds pass by.
